@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-image: url(Assets/background.jpg);
+    height: 100vh;
+}
+
+.header{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.heading img{
+    height: 40vh;
+}
+
+.sign-up{
+    background-color: white;
+    height: 100%;
+    width: 65%;
+}
+
+.form-main{
+  height: 40%;
+}
+
+/* Form Styles */
+form {
+  
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+  }
+  /* Label Styles */
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  /* Input Styles */
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /* Submit Button Styles */
+  input[type="submit"] {
+    width: 15rem;
+    height: 3rem;
+    background-color: #5593da;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  /* Change submit button color on hover */
+  input[type="submit"]:hover {
+    background-color: #4b87cd;
+  }
+
+  .row1, .row2, .row3{
+    display: flex;
+    justify-content: space-around;
+  }
+
+.description{
+  font-size: 1.8rem;
+  font-weight: 550;
+  height: 30%;
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 5rem;
+}
+
+.button-container{
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-in{
+  font-size: 18px;
+}
